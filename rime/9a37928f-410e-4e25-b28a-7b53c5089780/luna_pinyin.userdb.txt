@@ -1,0 +1,38 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	30
+#@/user_id	9a37928f-410e-4e25-b28a-7b53c5089780
+a 	啊	c=1 d=1 t=12
+a zhe 	啊這	c=1 d=1 t=22
+a zhe 	阿這	c=1 d=1 t=13
+an zhuang 	安裝	c=1 d=1 t=28
+bu yi ding 	不一定	c=1 d=1 t=6
+cha jian 	插件	c=1 d=1 t=29
+dan shi 	但是	c=1 d=1 t=4
+de 	的	c=1 d=1 t=15
+di fang 	地方	c=0 d=0.1 t=22
+dui ya 	對呀	c=1 d=1 t=19
+gao ji 	高級	c=0 d=0.1 t=29
+gao ji pei zhi 	高級配置	c=1 d=1 t=30
+hao o 	好哦	c=1 d=1 t=3
+hen yuan 	很遠	c=2 d=1.99501 t=21
+jie ju 	結局	c=1 d=1 t=16
+jiu shi 	就是	c=1 d=1 t=7
+le 	了	c=0 d=0.1 t=24
+mei hua 	美化	c=1 d=1 t=1
+na 	那	c=0 d=0.1 t=22
+na di fang 	那地方	c=1 d=1 t=23
+pei zhi 	配置	c=0 d=0.1 t=29
+shen zhen 	深圳	c=1 d=1 t=8
+shi ba 	是吧	c=2 d=1.99501 t=11
+shu ru kuang 	輸入框	c=1 d=1 t=18
+tai re 	太熱	c=0 d=0.1 t=24
+tai re le 	太熱了	c=1 d=1 t=25
+wei xin 	微信	c=2 d=1.92774 t=17
+wo ye 	我也	c=1 d=1 t=27
+xie zai 	卸載	c=1 d=1 t=26
+ya 	呀	c=1 d=1 t=9
+ye 	也	c=2 d=1.90937 t=24
+yi xiang bu dao 	意想不到	c=1 d=1 t=14

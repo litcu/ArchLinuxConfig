@@ -1,0 +1,49 @@
+patch:
+
+  switches:
+    - name: zh_simp_s2t
+      reset: 0
+      states: [ 简, 繁 ]
+    - name: emoji_suggestion
+      reset: 0
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+    - name: symbol_support
+      reset: 0
+      states: [ "无符", "符" ]
+    - name: ascii_punct
+      reset: 0
+      states: [ 。，, ．， ]
+    - name: full_shape
+      reset: 0
+      states: [ 全, 半 ]
+    - name: ascii_mode
+      reset: 0
+      states: [ 中, 英 ]
+  
+  speller/algebra:
+
+    # 模糊音
+
+    # 基础
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    
+    # 补全
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/   # o = ou; o = ong
+    - derive/ong$/on/      # on = ong
+    - derive/^ding$/din/     # din = ding
+    
+    # 处理 v 和 u
+    - derive/^([nl])ue$/$1ve/   # nve = nue; lve = lue
+    - derive/^([jqxy])u/$1v/    # v = u; v = u
+    
+    # 智能纠错
+    - derive/ao$/oa/       # oa = ao
+    - derive/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
+    - derive/([aeiou])ng$/$1gn/   # gn = ng
+    - derive/un$/uen/    # uen = un
+    - derive/ui$/uei/    # uei = ui
+    - derive/iu$/iou/    # iou = ui
+    - derive/tie$/tei/    # tei = tie
+    - derive/i$/ii/      # ii = i  # i 不小心按两下
+    - derive/u$/uu/      # ui = u  # u 不小心按两下
