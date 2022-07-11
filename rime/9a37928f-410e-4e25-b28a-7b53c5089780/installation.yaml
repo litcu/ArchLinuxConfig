@@ -1,7 +1,8 @@
 distribution_code_name: "fcitx-rime"
 distribution_name: Rime
-distribution_version: 5.0.13
+distribution_version: 5.0.14
 install_time: "Thu Jun 30 23:03:53 2022"
 installation_id: "9a37928f-410e-4e25-b28a-7b53c5089780"
 rime_version: 1.7.3
-sync_dir: '/home/litcu/Repositories/ArchConfigFile/rime'
+sync_dir: "/home/litcu/Repositories/ArchConfigFile/rime"
+update_time: "Tue Jul  5 11:54:03 2022"
